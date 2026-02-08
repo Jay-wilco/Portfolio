@@ -112,7 +112,7 @@ export default function Home() {
                   LinkedIn
                 </a>
                 <a
-                  href="/public/files/CV.docx"
+                  href="/public/files/CV_vilkko.pdf"
                   className="text-slate-200 underline decoration-white/30 underline-offset-4 hover:text-white"
                 >
                   Download CV
