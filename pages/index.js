@@ -96,7 +96,7 @@ export default function Home() {
 
               <div className="mt-8 sm:mt-6 flex flex-wrap justify-center gap-4 text-sm">
                 <a
-                  href="https://github.com/YOUR-USERNAME"
+                  href="https://github.com/Jay-wilco"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-200 underline decoration-white/30 underline-offset-4 hover:text-white"
@@ -104,7 +104,7 @@ export default function Home() {
                   GitHub
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/YOUR-LINKEDIN/"
+                  href="https://www.linkedin.com/in/juhavilkko/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-200 underline decoration-white/30 underline-offset-4 hover:text-white"
@@ -112,7 +112,7 @@ export default function Home() {
                   LinkedIn
                 </a>
                 <a
-                  href="/cv.pdf"
+                  href="/public/files/CV.docx"
                   className="text-slate-200 underline decoration-white/30 underline-offset-4 hover:text-white"
                 >
                   Download CV
