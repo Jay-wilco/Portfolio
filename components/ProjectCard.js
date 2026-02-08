@@ -17,8 +17,7 @@ const ProjectCard = ({ project }) => {
     field_short_description,
   } = attrs;
 
-  const alias = attrs?.path?.alias;
-  const slug = getSlugFromAlias(alias, project.id);
+  const slug = project.slug || getSlugFromAlias(attrs?.path?.alias, project.id);
 
   const projectUrl = field_project_url?.uri;
   const projectLinkTitle = field_project_url?.title || "Live Demo";
