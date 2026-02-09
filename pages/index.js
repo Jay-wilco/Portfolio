@@ -113,7 +113,8 @@ export default function Home() {
                 </a>
                 <a
                   href="/files/CV_vilkko.pdf"
-                  className="text-slate-200 underline decoration-white/30 underline-offset-4 hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Download CV
                 </a>
