@@ -15,7 +15,7 @@ export default function AboutPage() {
         {/* Photo placeholder */}
         <div className="h-48 w-48 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
           <Image
-            src="/images/profile/juha.JPG"
+            src="/images/profile/juha.jpg"
             alt="Juha Vilkko"
             width={192}
             height={192}
