@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutPage() {
   const name = "Juha Vilkko";
@@ -12,8 +13,15 @@ export default function AboutPage() {
       {/* Intro with photo */}
       <section className="grid gap-8 sm:grid-cols-[200px_1fr]">
         {/* Photo placeholder */}
-        <div className="flex h-48 w-48 items-center justify-center rounded-xl border border-slate-200 bg-slate-100 text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400">
-          Photo coming soon
+        <div className="h-48 w-48 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 dark:border-slate-800 dark:bg-slate-900">
+          <Image
+            src="/images/profile/naamakuva.jpg"
+            alt="Juha Vilkko"
+            width={192}
+            height={192}
+            className="h-full w-full object-cover"
+            priority
+          />
         </div>
 
         {/* Intro text */}
